@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wapper2 { width:960px; margin:0 auto; }
+
+.wapper2 .search { margin-left:100px; }
+
+/*放大镜样式*/
+.big div{ width:310px; height:310px; margin-right:10px; position:relative; }
+.bigShow { overflow:hidden; }
+.big span { position:absolute; left:0; top:0; width:100px; height:100px; background:#000; opacity:0.3; filter:alpha(opacity:30);}

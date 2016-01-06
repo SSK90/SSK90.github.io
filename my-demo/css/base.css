@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS base */
+*{ margin:0; padding:0; }
+li { list-style:none; }
+body{font-family:'Microsoft Yahei'; font-size:18px;}
+.clearfix:after{display:table; content:''; clear:both; }
+.clearfix{ zoom:1; }
+a{ text-decoration:none; color:#999; font-family:'Microsoft Yahei';}
+img{ vertical-align:top;}
+
+.f-left{ float:left;}
+.f-right{ float:right;}

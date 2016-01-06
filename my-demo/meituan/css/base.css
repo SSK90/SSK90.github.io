@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS base */
+* { padding:0; margin:0; }
+li { list-style:none; }
+a { text-decoration:none; color:#666; }
+img {  border:none; vertical-align:top; }
+body {  line-height:100%; font-size:12px; font-family:'Microsoft Yahei' '宋体';}
+h1,h2,h3,h4,h5,h6,i,em,b { font-weight:normal; }
+i,em { font-style:normal; }
+.clearfix:after { display:block; content:''; clear:both; }
+.clearfix { zoom:1; }
+
+.f-left { float:left;}
+.f-right { float:right; }
+
+/*头部左边样式*/
+.top { height:30px; border-top:1px solid #eee; border-bottom:1px solid #ddd; }
+
+.login,.top-nav{/* margin-top:8px;*/position:relative; }
+.login a ,.top-nav a{ position:relative; display:block; line-height:30px; }
+.login a { margin-right:14px; float:left; }
+.login a.j-btn {padding-right:24px; padding-left:6px; }
+
+.login .col-f7 { color:#f76120; }
+.col-dd { color:#ddd; }
+.marRight-14 { margin-right:14px; }
+.collection { width:13px; height:14px; background:url(../images/icon-bg.png) 0 -44px; margin-right:4px; margin-top:6px; }
+.phone-bg { width:13px; height:14px; background:url(../images/icon-bg.png) 0 -29px; margin-right:4px; margin-top:8px; }
+.phone-list>div { z-index:10; width:109px; height:200px; border:1px solid #eee; position:absolute; right:0; top:29px; background:#fff; display:none; }
+/*js样式*/
+.top .j-btn { border-left:1px solid #fff; border-right:1px solid #fff; }
+.top .j-btn.active { border-color:#eee; background:#fff; z-index:3; color:#2bb8aa; }
+.active.phone-list { display:block; }
+.active .jiao { border-bottom:3px solid #2bb8aa; border-top:none; }
+.j-box.active { display:block; }
+
+.top-nav li>div { position:absolute; width:100%; height:200px; background:#fff; border:1px solid #eee; left:0; top:28px; z-index:2; display:none; }
+
+.jiao { position:absolute; border:3px dashed transparent; right:14px; top:14px; border-top:3px solid #999; }
+
+
+.top-nav a.active>.line { color:#fff; }
+
+
+.top-nav li { position:relative; float:left; /*border:1px solid red; */ }
+.top-nav li>a { padding-left:14px; }
+.line {display:inline-block; margin-left:20px; }
+.top-nav .jiao { right:8px; }
+.shopcar-bg { width:13px; height:14px; background:url(../images/icon-bg.png) 0 -60px; margin-right:4px; margin-top:8px; }
+
+/*搜索框部分样式*/
+.header-top { margin-top:30px; }
+
+.logo { text-indent:-999em; width:82px; height:54px; background:url(../images/base.v87fa2a22.png) 0 -896px; }
+.logo  a {display:block; width:100%; height:100%; }
+
+.city { margin-left:10px; position:relative; }
+.city h3 { font-size:16px; margin:7px 0 8px; font-weight:bold; }
+.city span { display:block; padding:4px 5px; border:1px solid #eee; color:#999; }
+
+.search { margin-left:183px;}
+.search-box { position:relative; width:421px; height:38px; border:2px solid #2bb8aa;/**/ line-height:38px; font-size:14px; }
+/*js  高度变为76 添加边框 第二个em里面内容和第一个换*/
+.choice a.active { z-index:2; background:#fff; }
+.choice div { border:1px solid #eee; position:absolute; left:0; top:36px; width:61px; background:#fff; text-align:center; line-height:38px;  border-top:none; display:none;}
+
+
+.choice { cursor:pointer;  width:62px; height:38px; line-height:38px; text-align:center;color:#666; border-right:1px solid #eee; background:#fff; position:absolute; left:0; top:0; }
+.choice .jiao { right:7px; top:17px; }
+
+.txt { line-height:38px; position:absolute; left:60px; top:0; height:100%; border:none; outline:none; width:350px; padding-left:8px; }
+.search-box span{ position:absolute; left:70px; width:350px; height:100%; color:#a9a9a9; }
+
+.search-btn { width:63px; height:42px; background:#2bb8aa; text-align:center; line-height:42px; color:#fff; font-size:14px; }
+.option-list a { float:left; padding-right:20px; margin-top:14px; }
+
+.service a{ position:relative; float:left; text-align:center; padding-top:28px; margin-left:20px; margin-top:8px; color:#999; }
+.return { width:23px; height:23px; position:absolute; left:50%; margin-left:-11px;top:0; background:url(../images/icon-bg.png); }
+.return2 { background-position: -48px 0;}
+.return3 { background-position: -24px 0;}
+
+/*导航栏*/
+.nav { height:40px; background:#2bb8aa; color:#fff; font-size:16px; line-height:40px; margin-top:16px; }
+.nav li{ float:left; }
+.nav li a { font-weight:bold; display:block; padding:0 23px; color:#fff; height:100%; line-height:40px; }
+.nav li a:hover{ background:#1caf9a;}
+.all-list { width:230px; background:#1caf9a; padding-left:16px; }

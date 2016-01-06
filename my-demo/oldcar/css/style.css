@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#f2f2f2;	
+	}
+	
+
+.wrapper{
+	width:20rem;margin:0 auto;
+	font-size:0.75rem;
+	}
+
+.header{
+	padding:1rem 1rem 0;	
+	}
+.header h1{
+	width:10rem;height:1.75rem;
+	text-indent:-999em;
+	background:url(../img/icon_bg.png) 0 -9.3125rem;
+	background-size:20.125rem;
+	}
+.header h1 a{
+	display:block;
+	width:100%;height:100%;	
+	}
+.address span{
+	width:0.6875rem;height:0.9375rem;
+	background:url(../img/icon_bg.png) 0 -8.125rem;	
+	background-size:20.125rem;
+	}
+.address i{
+	font-size:0.875rem;
+	color:#333;margin:0.125rem 0 0 0.1875rem;	
+	}
+	
+.cont1{
+	position:relative;	
+	}
+.cont1 img{width:20rem;}
+.txt{
+	position:absolute;
+	left:0.625rem;bottom:0.625rem;
+	width:16.375rem;height:2.25rem;
+	line-height:2.25rem;
+	padding-left:2.25rem;	
+	outline:none;
+	font-size:1rem;
+	}	
+.xiaoren{
+	position:absolute;
+	left:1.5625rem;bottom:1.3125rem;
+	background:url(../img/icon_bg.png) 0 -11.3125rem;
+	width:0.9375rem;height:0.9375rem;	
+	background-size:20.125rem;
+	}
+.cont2 {
+	width:100%;
+	border-bottom:1px solid #ddd;
+	}
+.cont2 li{
+	position:relative;
+	float:left;
+	border-right:1px solid #ddd;
+	box-sizing:border-box;
+	width:25%;
+	background:#fff;
+	text-align:center;
+	}
+.cont2 li i{
+	position:absolute;
+	top:0.625rem;left:50%;
+	margin-left:-1rem;
+	width:2.1875rem;height:2.1875rem;	
+	background-size:100%;
+	}
+.maiche_bg{
+	background:url(../img/1.png);
+	}
+.maiche1_bg{background:url(../img/3.png);}
+.pingjia_bg{background:url(../img/2.png);}
+.shaixuan_bg{background:url(../img/4.png);}
+.cont2 li a{
+	display:block;
+	width:100%;height:100%;
+	padding:3rem 0 0.5625rem;
+	position:relative;
+	z-index:1;
+	}
+
+.cont3{margin-top:0.625rem;}	
+.cont3_left,.cont3_right{
+	width:50%;
+	}
+.cont3 img{
+	width:100%;	
+	box-sizing:border-box;
+	border:1px solid #f4f4f4;
+	}
+.cont3 .cont3_left img{border-left:0;}
+.cont3 .cont3_right img{border-right:0;}
+
+.cont4{margin-top:4px;background:#fff;}
+.cont4 h3{padding:0.625rem 0;}
+.cont4 h3 i{display:inline-block;padding:0.3125rem 0.625rem 0.25rem;}
+.price{border-left:0.25rem solid #f37e0b;}
+.pinpai{border-left:0.25rem solid #4881c9;}
+.chexing{border-left:0.25rem solid #48c242;}
+.cont4_list,.cont4_list2{width:100%;border-bottom:1px solid #ddd;}
+.cont4_list .bor_r0,.cont4_list2 .bor_r0,.cont2 .bor_r0{border-right:0;}
+.cont4 li{
+	float:left;
+	width:25%;
+	box-sizing:border-box;
+	text-align:center;
+	border:1px solid #ddd;
+	border-bottom:0;
+	border-left:0;
+	}
+.cont4_list li a{height:2.6875rem;line-height:2.6875rem;}
+
+.cont4_list2 li{
+	position:relative;
+	text-align:center;
+	}
+.cont4_list2 a{display:block;width:100%;padding:3.4375rem 0 0.625rem;}
+.cont4_list2 i{
+	position:absolute;
+	top:0;left:0;
+	background:url(../img/icon_bg.png);
+	width:4.9375rem;height:3.0625rem;	
+	background-size:20.125rem;
+	}
+.cont4_list2 .list1{background-position:0 0;}
+.cont4_list2 .list2{background-position:-5rem 0;}
+.cont4_list2 .list3{background-position:-10.125rem 0;}
+.cont4_list2 .list4{background-position:-15.1875rem 0;}
+.cont4_list2 .list5{background-position:0 -3.1875rem;}
+.cont4_list2 .list6{background-position:-5rem -3.1875rem;}
+.cont4_list2 .list7{background-position:-10.125rem -3.1875rem;}
+.cont4_list2 .list8{background-position:-15.1875rem -3.1875rem;}
+
+.cont5{width:100%;background:#fff;margin-top:0.625rem;border-top:1px solid #eee;}
+.cont5_left,.cont5_right{width:50%;box-sizing:border-box;}
+.cont5_left{border-right:1px solid #eee;}
+.cont5_right{border-left:1px solid #eee;}
+.cont5 p{padding:1rem 0 0.8125rem 0.75rem;}
+.cont5 p span{font-size:0.875rem;color:#333;}
+.same{color:#bababa;display:block;margin-top:0.3125rem;}
+.same b{color:#f50;}
+.jiameng{
+	background:url(../img/icon_bg.png) 0 -6.4375rem;
+	width:1.5625rem;height:1.5625rem;
+	background-size:20.125rem;
+	margin:1.1875rem 1.4375rem 0 0;}
+	
+.banner{width:100%;display:block;}
+.footer{width:100%;text-align:center;background:#fff;height:5rem;padding-top:1.25rem;}
+.footer .same{margin-top:1rem;}
+
+.cont3 img{width:9.9375rem;}
+.banner img{width:20rem;}
+.cont5_left img{width:4.25rem;}

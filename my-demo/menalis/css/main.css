@@ -1,0 +1,10 @@
+@charset "utf-8";
+	body{font-family:"Microsoft Yahei";}
+/* 头部第一部分样式 */
+	.header_t{height:120px;background:url(../img/hbg.png) repeat-x;}
+	.head_width{width:960px;margin:0 auto;position:relative;}
+	
+	h1{position:absolute;top:43px;left:80px;}
+	.headimg{position:absolute;top:43px;left:385px;}
+/*头部导航样式*/
+	
